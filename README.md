@@ -11,16 +11,16 @@ Collection of LeetCode questions and my solution to ace the coding interview!
 ### ✅ Easy  
 | # | Problem | Solution Link |
 |---|---------|--------------|
-| 14 | Longest Common Prefix | [Solution]([https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/0014-longest-common-prefix]) |
-| 18 | Merge Sorted Array | [Solution]([https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/0088-merge-sorted-arra]y) |
-| 217 | Contains Duplicate | [Solution][(https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/0217-contains-duplicate]) |
-| 242 | Valid Anagram | [Solution]([https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/0242-valid-anagram]) |
-| 268 | Missing Number | [Solution]([https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/0268-missing-number]) |
+| 14 | Longest Common Prefix | [Solution](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/0014-longest-common-prefix) |
+| 88 | Merge Sorted Array | [Solution](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/0088-merge-sorted-array) |
+| 217 | Contains Duplicate | [Solution](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/0217-contains-duplicate) |
+| 242 | Valid Anagram | [Solution](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/0242-valid-anagram) |
+| 268 | Missing Number | [Solution](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/0268-missing-number) |
 
 ### 🟡 Medium  
 | # | Problem | Solution Link |
 |---|---------|--------------|
-| 2 | Add Two Numbers | [Solution]([https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Medium/0002-add-two-numbers]) |
+| 2 | Add Two Numbers | [Solution](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Medium/0002-add-two-numbers) |
 
 ### 🔴 Hard  
 | # | Problem | Solution Link |
