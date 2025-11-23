@@ -19,6 +19,7 @@ Collection of LeetCode questions and my solution to ace the coding interview!
 
 ### 🟡 Medium  
 | # | Problem | Solution Link |
+|---|---------|--------------|
 | 2 | Add Two Numbers | [Solution]([LeetCode/…/ProblemName.cpp](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Medium/0002-add-two-numbers)) |
 
 ### 🔴 Hard  
