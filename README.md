@@ -32,5 +32,3 @@ Collection of LeetCode questions and my solution to ace the coding interview!
 1. Navigate to the `LeetCode/` directory in this repo.  
 2. Find a problem by difficulty and number from the table above.  
 3. Click the “Solution” link to view the code implementation.  
-4. (Optional) If you want the original LeetCode prompt, open the link at the top of the file or visit the problem on [LeetCode](https://leetcode.com).
-
