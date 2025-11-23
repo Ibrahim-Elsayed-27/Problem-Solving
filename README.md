@@ -3,8 +3,7 @@ Collection of LeetCode questions and my solution to ace the coding interview!
 
 ## Table of Contents  
 - [📋 Map of Problems](#map‑of‑problems)  
-- [🛠 How to Use](#how‑to‑use)  
-- [👤 About Me](#about‑me)  
+- [🛠 How to Use](#how‑to‑use)    
 
 ## Map of Problems  
 
