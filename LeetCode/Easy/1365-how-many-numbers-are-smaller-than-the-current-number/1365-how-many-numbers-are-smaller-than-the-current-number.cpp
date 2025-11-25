@@ -1,25 +1,23 @@
 class Solution {
 public:
     vector<int> smallerNumbersThanCurrent(vector<int>& nums) {
-        vector<int> copy = nums;
         vector<int> freq_arr(101, 0);
-        sort(copy.begin(), copy.end());
-        freq_arr[copy[0]] = 0;
-        int unrepeated_counter = 0;
-        for(int i = 1;i< copy.size();++i){
-            if(copy[i] == copy[i-1]){
-                freq_arr[copy[i]] = unrepeated_counter;                
-            }
-            else{
-                freq_arr[copy[i]] = i;
-                unrepeated_counter = i;
-
-            }
+        for(int num: nums){
+            freq_arr[num]+=1;
         }
-        for(int i = 0; i< nums.size();++i){
-            nums[i] = freq_arr[nums[i]];
+        int sum_freq = 0;
+        int old_sum_freq = 0;
+        for(int i=0; i<101; ++i){
+            old_sum_freq = sum_freq;
+            sum_freq += freq_arr[i];
+            freq_arr[i] = old_sum_freq;
         }
 
-        return nums;
+        vector<int> result;
+        for(int num: nums){
+            result.push_back(freq_arr[num]);
+        }
+
+        return result;
     }
 };
