@@ -7,7 +7,7 @@ public:
         for (int currSize = n; currSize > 1; --currSize) {
             int maxIndex = 0;
 
-            for (int i = 0; i < currSize; ++i) {
+            for (int i = 1; i < currSize; ++i) {
                 if (arr[i] > arr[maxIndex]) {
                     maxIndex = i;
                 }
