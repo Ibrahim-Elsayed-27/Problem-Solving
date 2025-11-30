@@ -16,24 +16,11 @@ public:
             return root;
         }
         else{
-            if(root->left != nullptr && root->right != nullptr){
-                TreeNode* temp = root->left;
-                root->left = root->right;
-                root->right = temp;
-                invertTree(root->left);
-                invertTree(root->right);
-                
-            }
-            else if(root->left != nullptr){
-                root->right = root->left;
-                root->left = nullptr;
-                invertTree(root->right);
-            }
-            else if(root->right != nullptr){
-                root->left = root->right;
-                root->right = nullptr;
-                invertTree(root->left);
-            }   
+            TreeNode* temp = root->left;
+            root->left = root->right;
+            root->right = temp;
+            invertTree(root->left);
+            invertTree(root->right);
 
             return root;         
         }
