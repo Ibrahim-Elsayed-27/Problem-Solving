@@ -15,9 +15,6 @@ public:
         if(root == nullptr){
             return root;
         }
-        if(root->left == nullptr && root->right == nullptr) {
-            return root;
-        }
         else{
             if(root->left != nullptr && root->right != nullptr){
                 TreeNode* temp = root->left;
