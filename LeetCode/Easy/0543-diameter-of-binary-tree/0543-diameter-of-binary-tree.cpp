@@ -14,23 +14,20 @@ class Solution {
 public:
     int max_diameter = 0;
     int diameterOfBinaryTree(TreeNode* root) {
-        if(root == nullptr){
-            return 0;
-        }  
-        diameterOfBinaryTree(root->left);
-        diameterOfBinaryTree(root->right);
-        max_diameter = max(max_diameter, maxDepth(root->left) + maxDepth(root->right));
-        return max_diameter;
+            dfs(root);
+            return max_diameter;
     }
 
 
+    int dfs(TreeNode* node) {
+        if (!node) return 0;
 
-    int maxDepth(TreeNode* root) {
-        if(root == nullptr){
-            return 0;
-        }
-        else{
-            return 1 + max(maxDepth(root->left), maxDepth(root->right));
-        }
+        int left_height = dfs(node->left);
+        int right_height = dfs(node->right);
+
+        max_diameter = max(max_diameter, left_height + right_height);
+
+        return 1 + max(left_height, right_height);  
     }
+
 };
