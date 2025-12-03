@@ -11,20 +11,14 @@
  */
 class Solution {
 public:
-    vector<int> tree;
+    long long prev = LLONG_MIN;
     bool isValidBST(TreeNode* root) {    
-        dfs(root);
-        for(int i=0; i<tree.size()-1; ++i){
-            if(tree[i] >= tree[i+1]) {
-                return false;
-            }
-        }
+        if(!root) return true;
+        if (! isValidBST(root->left)) return false;
+        if(root->val <= prev) return false; 
+        prev = root->val;
+        if (! isValidBST(root->right)) return false;
+
         return true;
-    }
-    void dfs(TreeNode* root){
-        if(!root) return;
-        dfs(root->left);
-        tree.push_back(root->val);
-        dfs(root->right);
     }
 };
