@@ -15,16 +15,17 @@ public:
     int kth;
     int kthSmallest(TreeNode* root, int k) {
         kth = k;
-        dfs(root);
-        return tree[k-1];
+        return dfs(root);
     }
 
-    void dfs(TreeNode* root){
-        if(!root) return;
-        dfs(root->left);
-        tree.push_back(root->val);
+    int dfs(TreeNode* root){
+        if(!root) return -1 ;
+        int left = dfs(root->left);
+        if(left != -1) return left;
         --kth;
-        if(kth == 0) return;
-        dfs(root->right);
+        if(kth == 0) return root->val;
+        int right = dfs(root->right);
+        if(right != -1) return right;
+        return -1;
     }
 };
