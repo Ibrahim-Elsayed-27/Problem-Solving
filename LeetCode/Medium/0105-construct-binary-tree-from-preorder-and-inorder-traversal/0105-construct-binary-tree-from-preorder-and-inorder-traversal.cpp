@@ -12,39 +12,50 @@
 class Solution {
 public:
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
-        if (preorder.empty() || inorder.empty())
+    
+        return build(preorder, inorder, 0, preorder.size()-1, 0, inorder.size()-1);
+;
+    }
+
+    TreeNode* build(vector<int>& pre, vector<int>& in,
+                    int preL, int preR, int inL, int inR) {
+
+        if (preL > preR || inL > inR) 
             return nullptr;
 
-        int rootVal = preorder[0];
+        int rootVal = pre[preL];
         TreeNode* root = new TreeNode(rootVal);
 
-        int k = 0;
-        while (k < inorder.size() && inorder[k] != rootVal) k++;
+        int k = inL;
+        while (k <= inR && in[k] != rootVal) k++;
 
-        if (k > 0 && preorder.size() > 1) {
-            int leftVal = preorder[1];
+        if (k > inL && preL + 1 <= preR) {
+            int leftVal = pre[preL + 1];
             bool existsLeft = false;
-            for (int i = 0; i < k; i++) {
-                if (inorder[i] == leftVal) {
+            for (int i = inL; i < k; i++) {
+                if (in[i] == leftVal) {
                     existsLeft = true;
                     break;
                 }
             }
             if (existsLeft) {
-                vector<int> newPre(preorder.begin() + 1, preorder.end());
-                vector<int> newIn(inorder.begin(), inorder.begin() + k);
-                root->left = buildTree(newPre, newIn);
+                int leftSize = k - inL;
+                root->left = build(pre, in,
+                                   preL + 1, preL + leftSize,
+                                   inL, k - 1);
             }
         }
 
-        if (k < inorder.size() - 1) {
+        if (k < inR) {
             bool foundRight = false;
             int rightVal = 0;
+            int rightIndex = -1;
 
-            for (int x = 1; x < preorder.size() && !foundRight; x++) {
-                for (int j = k + 1; j < inorder.size(); j++) {
-                    if (preorder[x] == inorder[j]) {
-                        rightVal = preorder[x];
+            for (int x = preL + 1; x <= preR && !foundRight; x++) {
+                for (int j = k + 1; j <= inR; j++) {
+                    if (pre[x] == in[j]) {
+                        rightVal = pre[x];
+                        rightIndex = x;
                         foundRight = true;
                         break;
                     }
@@ -52,15 +63,14 @@ public:
             }
 
             if (foundRight) {
-                int pos = 0;
-                while (pos < preorder.size() && preorder[pos] != rightVal) pos++;
-
-                vector<int> newPre(preorder.begin() + pos, preorder.end());
-                vector<int> newIn(inorder.begin() + k + 1, inorder.end());
-                root->right = buildTree(newPre, newIn);
+                int rightSize = inR - k;
+                root->right = build(pre, in,
+                                    rightIndex, preR,
+                                    k + 1, inR);
             }
         }
 
         return root;
     }
+
 };
