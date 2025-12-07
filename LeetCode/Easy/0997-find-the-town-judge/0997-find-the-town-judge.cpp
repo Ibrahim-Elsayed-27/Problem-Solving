@@ -5,23 +5,17 @@ public:
             if(n == 1) return n;
             return -1;
         }
-        unordered_map<int, vector<int>> trusts;
-        for(const auto& trust_relation: trust){
-            trusts[trust_relation[0]].push_back(trust_relation[1]);
-            if(trusts.find(trust_relation[1]) == trusts.end())
-            trusts[trust_relation[1]].push_back(-1); 
+        vector<int> degrees(n, 0);
+
+        for(const auto& relation: trust){
+            degrees[relation[1]-1]++;
+            degrees[relation[0]-1]--;
         }
-        for (const auto& entry : trusts) {
-            if (entry.second[entry.second.size()-1] == -1) {
-                for (const auto& entry2 : trusts){
-                    if(entry2 != entry){
-                        if(find(entry2.second.begin(), entry2.second.end(), entry.first) == entry2.second.end())
-                        return -1;
-                    } 
-                } 
-                return entry.first;  
-            }
+
+        for(int i =0 ; i<degrees.size(); ++i){
+            if(degrees[i] == n-1) return i+1;
         }
+        
 
         return -1;
     }
