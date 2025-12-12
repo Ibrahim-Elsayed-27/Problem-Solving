@@ -29,16 +29,14 @@ public:
             bob_visits_time[root] = time;
             return true;
         }
-        bool path_flag = false;
         visited[root] = true;
         for(int i = 0; i< tree[root].size(); ++i){
             if(visited.find(tree[root][i]) == visited.end()){
-                path_flag = path_flag || dfs_bob(tree[root][i], target, time+1);
+                if(dfs_bob(tree[root][i], target, time+1)){
+                    bob_visits_time[root] = time;
+                    return true;
+                }
             }
-        }
-        if(path_flag){
-            bob_visits_time[root] = time;
-            return true;
         }
 
         return false;
