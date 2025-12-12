@@ -3,7 +3,7 @@ private:
     unordered_map<int, vector<int>> tree;
     unordered_map<int, int> bob_visits_time;
     int bob_height;
-    unordered_map<int, bool> visited;
+    
 public:
     int mostProfitablePath(vector<vector<int>>& edges, int bob, vector<int>& amount) {
 
@@ -11,7 +11,8 @@ public:
             tree[edge[0]].push_back(edge[1]);
             tree[edge[1]].push_back(edge[0]);
         }
-        dfs_bob(0, bob, 0);
+        unordered_map<int, bool> bob_visited;
+        dfs_bob(0, bob,bob_visited, 0);
         for (auto& entry : bob_visits_time) {
             entry.second = bob_height - entry.second;
         //cout << "Node: " << entry.first << ", Time: " << entry.second << endl;
@@ -22,7 +23,7 @@ public:
  
     }
 
-    bool dfs_bob(int root,int target, int time){
+    bool dfs_bob(int root,int target,unordered_map<int,bool>& visited, int time){
         if(root == target){
             visited[root] = true;
             bob_height = time;
@@ -32,7 +33,7 @@ public:
         visited[root] = true;
         for(int i = 0; i< tree[root].size(); ++i){
             if(visited.find(tree[root][i]) == visited.end()){
-                if(dfs_bob(tree[root][i], target, time+1)){
+                if(dfs_bob(tree[root][i], target,visited, time+1)){
                     bob_visits_time[root] = time;
                     return true;
                 }
