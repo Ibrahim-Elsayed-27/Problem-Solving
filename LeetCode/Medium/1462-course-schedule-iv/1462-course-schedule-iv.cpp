@@ -1,33 +1,37 @@
 class Solution {
 public:
     vector<bool> checkIfPrerequisite(int numCourses, vector<vector<int>>& prerequisites, vector<vector<int>>& queries) {
-        unordered_map<int,vector<int>> adj_list;
-        for(const auto& edge: prerequisites){
-            adj_list[edge[0]].push_back(edge[1]);
-        }
-        vector<bool> result;
-        for(const auto& query: queries){
-            unordered_map<int, bool> visited;
-            result.push_back(dfs(adj_list, query[0],query[1], visited));
+
+        vector<vector<int>> adj_matrix(numCourses, vector<int>(numCourses,0));
+        for(vector<int>& pre: prerequisites ){
+            adj_matrix[pre[0]][pre[1]] = 1;
         }
 
-
-        return result;
-    }
-
-    bool dfs(unordered_map<int,vector<int>>& adj_list, int root, int target, unordered_map<int, bool>& visited){
-        visited[root] = true;
-        if(root == target){
-            return true;
-        }
-        for(int i = 0; i< adj_list[root].size(); ++i){
-            
-            if(!visited[adj_list[root][i]] && dfs(adj_list, adj_list[root][i], target, visited) ){
-                return true;
+        vector<vector<int>> connection = adj_matrix;
+        for(int i=0; i< numCourses; ++i){
+            queue<int> bfs_queue;
+            vector<bool> visited(numCourses, false);
+            bfs_queue.push(i);
+            visited[i] = 1;
+            while(!bfs_queue.empty()){
+                int current = bfs_queue.front();
+                bfs_queue.pop();
+                connection[i][current] = 1;
+                for(int j=0; j< numCourses; ++j){
+                    if(adj_matrix[current][j] && !visited[j]){
+                        bfs_queue.push(j);
+                        visited[j] = 1;
+                    }
+                }
             }
-            
+
+        }
+        vector<bool> results;
+        for(vector<int>& query: queries){
+            results.push_back(connection[query[0]][query[1]]);
         }
 
-        return false;
+        return results;
+        
     }
 };
