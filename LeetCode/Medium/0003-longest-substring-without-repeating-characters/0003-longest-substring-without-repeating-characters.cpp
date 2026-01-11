@@ -8,16 +8,17 @@ public:
         int size = s.length();
 
         while (right < size) {
-            if (chars_map.find(s[right]) == chars_map.end() || chars_map[s[right]] < left) {
+            if (chars_map.find(s[right]) != chars_map.end()) {
+                max_length = max(max_length, right - left);
+                left = chars_map[s[right]] + 1;
                 chars_map[s[right]] = right;
                 ++right;
-                max_length = max(max_length, right - left);
             } else {
-                left = chars_map[s[right]] + 1;
                 chars_map[s[right]] = right;
                 ++right;
             }
         }
+        max_length = max(max_length, right - left-1);
 
         return max_length;
     }
