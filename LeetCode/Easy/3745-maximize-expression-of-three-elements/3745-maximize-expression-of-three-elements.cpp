@@ -1,7 +1,7 @@
 class Solution {
 public:
     int maximizeExpressionOfThree(vector<int>& nums) {
-        int max1 = nums[0], max2 = max1, minVal = max1;
+        int max1 = INT_MIN, max2 = INT_MIN, minVal = INT_MAX;
         
         for(int x : nums) {
             if(x > max1) {
