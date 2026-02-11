@@ -5,6 +5,8 @@ class Solution:
         #print(nums)
         dict_nums = {val: i for i, val in enumerate(nums)}
         for i in range(len(nums) - 2):
+            if(i>0 and nums[i] == nums[i-1]):
+                continue
             for j in range(i+1, len(nums)):
                 temp = -nums[i] - nums[j]
                 temp_index = dict_nums.get(temp)
