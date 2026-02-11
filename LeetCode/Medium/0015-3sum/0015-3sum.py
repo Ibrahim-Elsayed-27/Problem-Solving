@@ -8,7 +8,6 @@ class Solution:
             if(i>0 and nums[i] == nums[i-1]):
                 continue
             for j in range(i+1, len(nums)):
-                if(nums[j] == nums[j-1]):
                 temp = -nums[i] - nums[j]
                 temp_index = dict_nums.get(temp)
                 if temp_index != None:
