@@ -8,7 +8,7 @@ class Solution:
     def isSymmetric(self, root: Optional[TreeNode]) -> bool:
         left = self.inOrder(root.left, "")
         right = self.inOrderReverse(root.right, "")
-        print(left, right)
+        #print(left, right)
         return left == right
 
 
