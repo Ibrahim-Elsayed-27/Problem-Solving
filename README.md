@@ -99,4 +99,8 @@ The goal is to keep solving, keep recognizing patterns faster, and gradually mov
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/0637-average-of-levels-in-binary-tree/) | Easy |
+## String
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1758-minimum-changes-to-make-alternating-binary-string](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/1758-minimum-changes-to-make-alternating-binary-string/) | Easy |
 <!---LeetCode Topics End-->
