@@ -107,4 +107,12 @@ The goal is to keep solving, keep recognizing patterns faster, and gradually mov
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1758-minimum-changes-to-make-alternating-binary-string](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/1758-minimum-changes-to-make-alternating-binary-string/) | Easy |
+## Divide and Conquer
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0191-number-of-1-bits](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/0191-number-of-1-bits/) | Easy |
+## Bit Manipulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0191-number-of-1-bits](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/0191-number-of-1-bits/) | Easy |
 <!---LeetCode Topics End-->
