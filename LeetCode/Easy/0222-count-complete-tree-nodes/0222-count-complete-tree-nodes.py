@@ -17,8 +17,10 @@ class Solution:
         if(root == None):
             return 
         
-        self.dfs(root.left)
-        self.dfs(root.right)
+        if(root.left):
+            self.dfs(root.left)
+        if(root.right):
+            self.dfs(root.right)
 
         self.counter+=1
         return
