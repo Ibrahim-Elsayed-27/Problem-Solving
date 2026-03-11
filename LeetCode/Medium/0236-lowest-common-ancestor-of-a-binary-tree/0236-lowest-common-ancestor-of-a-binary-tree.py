@@ -4,7 +4,7 @@
 #         self.val = x
 #         self.left = None
 #         self.right = None
-def depth_of_node(root, node, depth=0, path=None):
+def depth_of_node(root, node, path=None):
     if path is None:
         path = []
 
@@ -14,13 +14,13 @@ def depth_of_node(root, node, depth=0, path=None):
     path.append(root)
 
     if root == node:
-        return depth, path.copy()
+        return path.copy()
 
-    left = depth_of_node(root.left, node, depth + 1, path)
+    left = depth_of_node(root.left, node, path)
     if left is not None:
         return left
 
-    right = depth_of_node(root.right, node, depth + 1, path)
+    right = depth_of_node(root.right, node, path)
     if right is not None:
         return right
 
@@ -29,8 +29,8 @@ def depth_of_node(root, node, depth=0, path=None):
 class Solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
 
-        p_depth, p_path = depth_of_node(root, p)
-        q_depth, q_path = depth_of_node(root, q)
+        p_path = depth_of_node(root, p)
+        q_path = depth_of_node(root, q)
         i = 0
         while(i < len(p_path) and i < len(q_path)):
             if p_path[i] != q_path[i]:
