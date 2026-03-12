@@ -22,7 +22,7 @@ class Solution:
         if(head.next == None or left == right):
             return head
         if(head.next.next == None):
-            print("hima")
+            #print("hima")
             temp = head.next
             head.next = None
             temp.next = head
