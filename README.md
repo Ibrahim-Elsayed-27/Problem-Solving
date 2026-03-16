@@ -86,6 +86,7 @@ The goal is to keep solving, keep recognizing patterns faster, and gradually mov
 ## Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0103-binary-tree-zigzag-level-order-traversal](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Medium/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
 | [0112-path-sum](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/0112-path-sum/) | Easy |
 | [0129-sum-root-to-leaf-numbers](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Medium/0129-sum-root-to-leaf-numbers/) | Medium |
 | [0222-count-complete-tree-nodes](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/0222-count-complete-tree-nodes/) | Easy |
@@ -101,11 +102,13 @@ The goal is to keep solving, keep recognizing patterns faster, and gradually mov
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0103-binary-tree-zigzag-level-order-traversal](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Medium/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
 | [0112-path-sum](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/0112-path-sum/) | Easy |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/0637-average-of-levels-in-binary-tree/) | Easy |
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0103-binary-tree-zigzag-level-order-traversal](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Medium/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
 | [0112-path-sum](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/0112-path-sum/) | Easy |
 | [0129-sum-root-to-leaf-numbers](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Medium/0129-sum-root-to-leaf-numbers/) | Medium |
 | [0222-count-complete-tree-nodes](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/0222-count-complete-tree-nodes/) | Easy |
