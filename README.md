@@ -148,4 +148,8 @@ The goal is to keep solving, keep recognizing patterns faster, and gradually mov
 | ------- | ------- |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/0530-minimum-absolute-difference-in-bst/) | Easy |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/0783-minimum-distance-between-bst-nodes/) | Easy |
+## Database
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1280-students-and-examinations](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/1280-students-and-examinations/) | Easy |
 <!---LeetCode Topics End-->
