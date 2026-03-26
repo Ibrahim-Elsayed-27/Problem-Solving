@@ -156,5 +156,6 @@ The goal is to keep solving, keep recognizing patterns faster, and gradually mov
 ## Database
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0620-not-boring-movies](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/0620-not-boring-movies/) | Easy |
 | [1280-students-and-examinations](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/1280-students-and-examinations/) | Easy |
 <!---LeetCode Topics End-->
