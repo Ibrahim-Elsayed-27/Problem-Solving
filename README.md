@@ -103,6 +103,7 @@ The goal is to keep solving, keep recognizing patterns faster, and gradually mov
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Medium/0114-flatten-binary-tree-to-linked-list/) | Medium |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Medium/0117-populating-next-right-pointers-in-each-node-ii/) | Medium |
 | [0129-sum-root-to-leaf-numbers](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Medium/0129-sum-root-to-leaf-numbers/) | Medium |
+| [0200-number-of-islands](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Medium/0200-number-of-islands/) | Medium |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Medium/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/0530-minimum-absolute-difference-in-bst/) | Easy |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/0637-average-of-levels-in-binary-tree/) | Easy |
@@ -113,6 +114,7 @@ The goal is to keep solving, keep recognizing patterns faster, and gradually mov
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Medium/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
 | [0112-path-sum](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/0112-path-sum/) | Easy |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Medium/0117-populating-next-right-pointers-in-each-node-ii/) | Medium |
+| [0200-number-of-islands](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Medium/0200-number-of-islands/) | Medium |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/0530-minimum-absolute-difference-in-bst/) | Easy |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/0637-average-of-levels-in-binary-tree/) | Easy |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/0783-minimum-distance-between-bst-nodes/) | Easy |
@@ -178,4 +180,16 @@ The goal is to keep solving, keep recognizing patterns faster, and gradually mov
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Medium/0017-letter-combinations-of-a-phone-number/) | Medium |
+## Array
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0200-number-of-islands](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Medium/0200-number-of-islands/) | Medium |
+## Union-Find
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0200-number-of-islands](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Medium/0200-number-of-islands/) | Medium |
+## Matrix
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0200-number-of-islands](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Medium/0200-number-of-islands/) | Medium |
 <!---LeetCode Topics End-->
