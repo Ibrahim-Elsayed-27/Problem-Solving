@@ -136,6 +136,7 @@ The goal is to keep solving, keep recognizing patterns faster, and gradually mov
 | ------- | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Medium/0017-letter-combinations-of-a-phone-number/) | Medium |
 | [1758-minimum-changes-to-make-alternating-binary-string](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/1758-minimum-changes-to-make-alternating-binary-string/) | Easy |
+| [3110-score-of-a-string](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/3110-score-of-a-string/) | Easy |
 ## Divide and Conquer
 | Problem Name | Difficulty |
 | ------- | ------- |
