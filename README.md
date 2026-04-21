@@ -164,6 +164,7 @@ The goal is to keep solving, keep recognizing patterns faster, and gradually mov
 ## Database
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0586-customer-placing-the-largest-number-of-orders](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/0586-customer-placing-the-largest-number-of-orders/) | Easy |
 | [0620-not-boring-movies](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/0620-not-boring-movies/) | Easy |
 | [1075-project-employees-i](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/1075-project-employees-i/) | Easy |
 | [1251-average-selling-price](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/1251-average-selling-price/) | Easy |
