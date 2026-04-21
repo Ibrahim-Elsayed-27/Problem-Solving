@@ -1,40 +1,44 @@
-def dfs_graph(grid, visited, start_node):
-    rows = len(grid)
-    cols = len(grid[0])
+def graph_bfs(grid, visited_queue, i, j):
+    visited_queue.append([i, j])
+    grid[i][j] = "0"   
 
-    r, c = start_node
+    while visited_queue:
+        i, j = visited_queue.pop()
+        #print(i,j)
+        # Down
+        if i + 1 < len(grid) and grid[i+1][j] == "1":
+            visited_queue.append([i+1, j])
+            grid[i+1][j] = "0"   
 
-    # mark current node as visited
-    visited[r][c] = 1
+        # Up
+        if i - 1 >= 0 and grid[i-1][j] == "1":
+            visited_queue.append([i-1, j])
+            grid[i-1][j] = "0"
 
-    directions = [(1, 0), (-1, 0), (0, 1), (0, -1)]
+        # Right
+        if j + 1 < len(grid[0]) and grid[i][j+1] == "1":
+            visited_queue.append([i, j+1])
+            grid[i][j+1] = "0"
 
-    for dr, dc in directions:
-        nr, nc = r + dr, c + dc
-
-        if (
-            0 <= nr < rows and
-            0 <= nc < cols and
-            visited[nr][nc] == 0 and
-            grid[nr][nc] == '1'   # or 1 depending on input
-        ):
-            dfs_graph(grid, visited, (nr, nc))
+        # Left
+        if j - 1 >= 0 and grid[i][j-1] == "1":
+            visited_queue.append([i, j-1])
+            grid[i][j-1] = "0"
+            
     
+
 
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
-        visited_list = [[0 for _ in range(len(grid[0]))] for _ in range(len(grid))]
+        #print(len(grid))
         islands = 0
         for i in range(len(grid)):
             for j in range(len(grid[0])):
-                print(grid[i][j], "   ", visited_list[i][j])
-                if ( grid[i][j] == '1'):
-                    if(not visited_list[i][j]):
-                        print("hima")
-                        dfs_graph(grid, visited_list, (i, j))
-                        islands += 1
+                #print(i,j, "   ", grid[i][j])
+                if(grid[i][j] == "1"):
+                    graph_bfs(grid, [], i, j)
+                    islands+=1
 
         return islands
 
-
-
+        
