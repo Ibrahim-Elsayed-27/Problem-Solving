@@ -95,6 +95,7 @@ The goal is to keep solving, keep recognizing patterns faster, and gradually mov
 | [0129-sum-root-to-leaf-numbers](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Medium/0129-sum-root-to-leaf-numbers/) | Medium |
 | [0222-count-complete-tree-nodes](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/0222-count-complete-tree-nodes/) | Easy |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Medium/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
+| [0257-binary-tree-paths](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/0257-binary-tree-paths/) | Easy |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/0530-minimum-absolute-difference-in-bst/) | Easy |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/0637-average-of-levels-in-binary-tree/) | Easy |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/0783-minimum-distance-between-bst-nodes/) | Easy |
@@ -107,6 +108,7 @@ The goal is to keep solving, keep recognizing patterns faster, and gradually mov
 | [0129-sum-root-to-leaf-numbers](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Medium/0129-sum-root-to-leaf-numbers/) | Medium |
 | [0200-number-of-islands](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Medium/0200-number-of-islands/) | Medium |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Medium/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
+| [0257-binary-tree-paths](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/0257-binary-tree-paths/) | Easy |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/0530-minimum-absolute-difference-in-bst/) | Easy |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/0637-average-of-levels-in-binary-tree/) | Easy |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/0783-minimum-distance-between-bst-nodes/) | Easy |
@@ -132,6 +134,7 @@ The goal is to keep solving, keep recognizing patterns faster, and gradually mov
 | [0129-sum-root-to-leaf-numbers](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Medium/0129-sum-root-to-leaf-numbers/) | Medium |
 | [0222-count-complete-tree-nodes](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/0222-count-complete-tree-nodes/) | Easy |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Medium/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
+| [0257-binary-tree-paths](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/0257-binary-tree-paths/) | Easy |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/0530-minimum-absolute-difference-in-bst/) | Easy |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/0637-average-of-levels-in-binary-tree/) | Easy |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/0783-minimum-distance-between-bst-nodes/) | Easy |
@@ -139,6 +142,7 @@ The goal is to keep solving, keep recognizing patterns faster, and gradually mov
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Medium/0017-letter-combinations-of-a-phone-number/) | Medium |
+| [0257-binary-tree-paths](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/0257-binary-tree-paths/) | Easy |
 | [1758-minimum-changes-to-make-alternating-binary-string](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/1758-minimum-changes-to-make-alternating-binary-string/) | Easy |
 | [3110-score-of-a-string](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/3110-score-of-a-string/) | Easy |
 ## Divide and Conquer
@@ -191,6 +195,7 @@ The goal is to keep solving, keep recognizing patterns faster, and gradually mov
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Medium/0017-letter-combinations-of-a-phone-number/) | Medium |
+| [0257-binary-tree-paths](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/0257-binary-tree-paths/) | Easy |
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
