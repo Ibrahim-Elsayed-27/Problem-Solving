@@ -183,6 +183,7 @@ The goal is to keep solving, keep recognizing patterns faster, and gradually mov
 | [0596-classes-with-at-least-5-students](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/0596-classes-with-at-least-5-students/) | Easy |
 | [0620-not-boring-movies](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/0620-not-boring-movies/) | Easy |
 | [1075-project-employees-i](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/1075-project-employees-i/) | Easy |
+| [1141-user-activity-for-the-past-30-days-i](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/1141-user-activity-for-the-past-30-days-i/) | Easy |
 | [1251-average-selling-price](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/1251-average-selling-price/) | Easy |
 | [1280-students-and-examinations](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/1280-students-and-examinations/) | Easy |
 | [1633-percentage-of-users-attended-a-contest](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/1633-percentage-of-users-attended-a-contest/) | Easy |
