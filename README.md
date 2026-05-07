@@ -93,6 +93,7 @@ The goal is to keep solving, keep recognizing patterns faster, and gradually mov
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Medium/0114-flatten-binary-tree-to-linked-list/) | Medium |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Medium/0117-populating-next-right-pointers-in-each-node-ii/) | Medium |
 | [0129-sum-root-to-leaf-numbers](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Medium/0129-sum-root-to-leaf-numbers/) | Medium |
+| [0144-binary-tree-preorder-traversal](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/0144-binary-tree-preorder-traversal/) | Easy |
 | [0222-count-complete-tree-nodes](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/0222-count-complete-tree-nodes/) | Easy |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Medium/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0257-binary-tree-paths](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/0257-binary-tree-paths/) | Easy |
@@ -106,6 +107,7 @@ The goal is to keep solving, keep recognizing patterns faster, and gradually mov
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Medium/0114-flatten-binary-tree-to-linked-list/) | Medium |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Medium/0117-populating-next-right-pointers-in-each-node-ii/) | Medium |
 | [0129-sum-root-to-leaf-numbers](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Medium/0129-sum-root-to-leaf-numbers/) | Medium |
+| [0144-binary-tree-preorder-traversal](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/0144-binary-tree-preorder-traversal/) | Easy |
 | [0200-number-of-islands](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Medium/0200-number-of-islands/) | Medium |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Medium/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0257-binary-tree-paths](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/0257-binary-tree-paths/) | Easy |
@@ -132,6 +134,7 @@ The goal is to keep solving, keep recognizing patterns faster, and gradually mov
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Medium/0114-flatten-binary-tree-to-linked-list/) | Medium |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Medium/0117-populating-next-right-pointers-in-each-node-ii/) | Medium |
 | [0129-sum-root-to-leaf-numbers](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Medium/0129-sum-root-to-leaf-numbers/) | Medium |
+| [0144-binary-tree-preorder-traversal](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/0144-binary-tree-preorder-traversal/) | Easy |
 | [0222-count-complete-tree-nodes](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/0222-count-complete-tree-nodes/) | Easy |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Medium/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0257-binary-tree-paths](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/0257-binary-tree-paths/) | Easy |
@@ -187,6 +190,7 @@ The goal is to keep solving, keep recognizing patterns faster, and gradually mov
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Medium/0114-flatten-binary-tree-to-linked-list/) | Medium |
+| [0144-binary-tree-preorder-traversal](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/0144-binary-tree-preorder-traversal/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
