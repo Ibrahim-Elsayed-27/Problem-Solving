@@ -200,6 +200,7 @@ The goal is to keep solving, keep recognizing patterns faster, and gradually mov
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Medium/0017-letter-combinations-of-a-phone-number/) | Medium |
+| [2784-check-if-array-is-good](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/2784-check-if-array-is-good/) | Easy |
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -211,6 +212,7 @@ The goal is to keep solving, keep recognizing patterns faster, and gradually mov
 | [0016-3sum-closest](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Medium/0016-3sum-closest/) | Medium |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0200-number-of-islands](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Medium/0200-number-of-islands/) | Medium |
+| [2784-check-if-array-is-good](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/2784-check-if-array-is-good/) | Easy |
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -228,6 +230,7 @@ The goal is to keep solving, keep recognizing patterns faster, and gradually mov
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0016-3sum-closest](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Medium/0016-3sum-closest/) | Medium |
+| [2784-check-if-array-is-good](https://github.com/Ibrahim-Elsayed-27/Problem-Solving/tree/main/LeetCode/Easy/2784-check-if-array-is-good/) | Easy |
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
